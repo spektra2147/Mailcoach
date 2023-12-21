@@ -19,7 +19,7 @@
         "laravel/horizon": "^5.12",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "spatie/laravel-mailcoach": "^7.0"
+        "spatie/laravel-mailcoach": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -29,6 +29,12 @@
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",
         "spatie/laravel-ignition": "^2.0"
+    },
+    "repositories": {
+        "4": {
+            "type": "vcs",
+            "url": "https://github.com/fatihalp/laravel-mailcoach"
+        }
     },
     "autoload": {
         "psr-4": {
